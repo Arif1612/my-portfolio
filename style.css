@@ -1,21 +1,33 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 body{
     font-family: 'Poppins', sans-serif;
     margin: 1%;
 }
+h1{
+    font-size: 45px;
+}
+h3{
+    font-size: 35px;
+}
+p{
+    font-size: 30px;
+}
 .orange-color{
     color: orange;
    
 }
-section{
+.flexible-container{
     display: flex;
     padding: 1%;
-    border: solid 5px red;
+ 
     margin: 2%;
 }
+
 .half-width{
     width: 50%;
-    padding: 3%;
+    padding: 2%;
+    
 }
 .half-width img
 {
@@ -38,4 +50,42 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+#flexible-container1{
+    display: flex;
+    padding: 1%;
+  
+    
+}
+/* section 3 */
+.experiences-area{
+    margin: 2%;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.experience-item{
+    width: 40%;
+    padding: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+    /* offset-x offset-y blure radious color */
+    box-shadow: 10px 10px 40px green; 
+    border-radius: 10px;
+   
+
+}
+#full-web{
+  border-left: 7px solid;
+  border-image: linear-gradient(blue,cyan);
+  border-image-slice: 1;
+}
+#baby-web{
+    border-left: 10px solid red;
+}
+footer p{
+    text-align: center;
+    margin-top: 15px;
 }
