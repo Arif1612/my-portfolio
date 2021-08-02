@@ -72,7 +72,7 @@ p{
     margin-left: 5%;
     margin-right: 5%;
     /* offset-x offset-y blure radious color */
-    box-shadow: 10px 10px 40px green; 
+    box-shadow: 10px 10px 50px gray;
     border-radius: 10px;
    
 
@@ -88,4 +88,5 @@ p{
 footer p{
     text-align: center;
     margin-top: 15px;
+    box-shadow: 10px 10px 11px green;
 }
